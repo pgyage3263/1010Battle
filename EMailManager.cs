@@ -33,7 +33,7 @@ public class EMailManager : MonoBehaviour
         //mail.Attachments.Add(attachment);
         SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
         smtpServer.Port = 587;
-        smtpServer.Credentials = new System.Net.NetworkCredential("rjsdud3263@gmail.com", "@1173516p") as ICredentialsByHost; // 보내는사람 주소 및 비밀번호 확인
+        smtpServer.Credentials = new System.Net.NetworkCredential("rjsdud3263@gmail.com", "pppppppp") as ICredentialsByHost; // 보내는사람 주소 및 비밀번호 확인
         smtpServer.EnableSsl = true;
         ServicePointManager.ServerCertificateValidationCallback =
         delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
